@@ -3,11 +3,17 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --dh-primary: #CDA274;
+  --dh-white: #ffffff;
 }
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: 0;
+}
+
+.container{
+  max-width: 1260px;
+  margin: auto;
 }

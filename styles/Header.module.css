@@ -1,3 +1,77 @@
 .dhHeader{
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1260px;
+  margin: auto;
+  padding: 40px 0;
+  background-color: var(--dh-white);
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.active{
+  color: var(--dh-primary);
+}
+
+.menuContainer {
+  display: flex;
+  align-items: center; /* Alinha o botão e os links verticalmente */
+}
+
+.menuButton {
+  cursor: pointer;
+  padding: 10px;
+  background-color: var(--dh-primary);
+  border-radius: 8px;
+}
+
+.linksOpen {
+  display: flex;
+  flex-direction: column; /* Mostra os links em uma coluna */
+  background-color: var(--dh-white);
+  padding: 10px;
+  position: absolute;
+  top: 80px; /* Posiciona os links abaixo do botão */
+  width: 100%;
+  left: 0;
+  z-index: 1; /* Garante que os links apareçam sobre outros elementos */
+}
+
+.menuContainer{
+  display: none;
+}
+
+@media(max-width: 680px){
+  .dhHeader{
+    padding: 20px;
+  }
+  
+  .menuContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo img{
+    max-width: 200px;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .linksOpen {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
 }
