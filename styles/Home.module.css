@@ -8,10 +8,7 @@
   color: var(--dh-white);
 }
 
-.homeBanner h1{
-  width: 60%;
-}
-
 .homeBanner p{
-  width: 50%;
+  width: 45%;
+  margin: 20px 0 40px;
 }
