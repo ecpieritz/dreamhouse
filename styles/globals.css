@@ -68,3 +68,29 @@ button {
   font-weight: 700;
 }
  
+/* START BUTTONS */
+.primary-btn{
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  background-color: var(--dh-primary);
+  padding: 20px 45px;
+  border-radius: 16px;
+  gap: 10px;
+}
+
+.primary-btn img{
+  width: 20px;
+  height: 18px;
+}
+
+.primary-btn:hover{
+  background-color: var(--dh-primary-dark);
+}
+/* END BUTTONS */
+
+@media(max-wodth: 680px) {
+  .mob-none{
+    display: none;
+  }
+}
