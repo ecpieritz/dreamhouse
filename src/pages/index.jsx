@@ -23,6 +23,7 @@ export default function Home() {
       <Header />
       <main>
         <HomeBanner />
+        <HomeServices />
       </main>
 
       <script

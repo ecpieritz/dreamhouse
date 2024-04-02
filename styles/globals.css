@@ -68,6 +68,10 @@ button {
   font-weight: 700;
 }
 
+section{
+  margin-top: 120px;
+}
+
 /* START BUTTONS */
 .primary-btn {
   display: flex;
@@ -86,6 +90,21 @@ button {
 
 .primary-btn:hover {
   background-color: var(--dh-primary-dark);
+}
+
+.text-btn{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.text-btn:hover{
+  text-decoration: none;
+  color: var(--dh-black);
+  background-color: var(--dh-primary);
 }
 
 /* END BUTTONS */
