@@ -1,0 +1,22 @@
+.cardTestimonial{
+  background-color: var(--dh-white);
+  border-radius: 16px;
+  padding: 40px;
+  height: 100%;
+}
+
+.cardName{
+  font-weight: 700;
+}
+
+.cardLocation{
+  font-style: italic;
+  font-size: 16px;
+}
+
+@media(max-width: 680px) {
+  .cardTestimonial {
+    margin-bottom: 20px;
+    height: auto;
+  }
+}
