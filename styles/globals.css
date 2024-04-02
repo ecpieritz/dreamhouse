@@ -139,6 +139,10 @@ section{
     font-size: 18px;
   }
 
+  section{
+    margin-top: 60px;
+  }
+
   .primary-btn {
     padding: 15px 30px;
   }

@@ -1,26 +1,28 @@
+import styles from "../../styles/homeServices.module.css";
 import CardOnlyText from "../CardOnlyText";
+import Image from "next/image";
 
 export default function HomeServices() {
   const services = [
     {
       title: "Project Plan",
       text: "With a keen eye for detail, our project plans are designed to reflect your unique style and preferences, promising an outcome that exceeds expectations.",
-      link: "/projects"
+      link: "/projects",
     },
     {
       title: "Interior Work",
       text: "From bespoke furniture to intricate decor, our interior work reflects a harmonious blend of aesthetics and functionality, curated to elevate your living experience.",
-      link: "/services"
+      link: "/services",
     },
     {
       title: "Realization",
       text: "Witness your dreams materialize before your eyes as we breathe life into your vision, orchestrating each element with care and expertise to realize spaces that resonate with your soul.",
-      link: "/prices"
+      link: "/prices",
     },
   ];
 
   return (
-    <section>
+    <section className={styles.homeServices}>
       <div className="container">
         <div className="row">
           {services.map((service, index) => (
@@ -32,6 +34,14 @@ export default function HomeServices() {
             />
           ))}
         </div>
+
+        <Image
+          className={styles.servicesImg}
+          src="/imgs/dh-home--img02.png"
+          alt="designs"
+          width={1300}
+          height={600}
+        />
       </div>
     </section>
   );

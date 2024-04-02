@@ -9,3 +9,9 @@
 .cardText p{
   margin: 20px auto;
 }
+
+@media(max-width: 680px) {
+  .cardText {
+    margin-bottom: 40px;
+  }
+}

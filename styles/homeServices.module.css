@@ -1,0 +1,12 @@
+.servicesImg {
+  width: 100%;
+  height: auto;
+  margin-top: 120px;
+}
+
+@media(max-width: 680px) {
+  .servicesImg {
+    margin-top: 40px;
+    display: flex;
+  }
+}

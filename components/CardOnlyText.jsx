@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function CardOnlyText(props) {
   return (
-    <div className="col-4">
+    <div className="col-md-4">
       <div className={styles.cardText}>
         <h5>{props.title}</h5>
 
