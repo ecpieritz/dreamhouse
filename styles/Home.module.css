@@ -8,7 +8,23 @@
   color: var(--dh-white);
 }
 
-.homeBanner p{
+.homeBanner p {
   width: 45%;
   margin: 20px 0 40px;
+}
+
+@media(max-width: 680px) {
+  .homeBanner {
+    height: 600px;
+    padding: 40px;
+  }
+
+  .homeBanner p {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .homeBanner h1 {
+    width: 100%;
+  }
 }
