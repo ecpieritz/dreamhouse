@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../../components/Header";
 import HomeBanner from "../../components/home/Banner";
 import HomeServices from "../../components/home/Services";
+import HomeTestimonials from "../../components/home/Testimonial";
 
 export default function Home() {
   return (
@@ -22,8 +23,11 @@ export default function Home() {
 
       <Header />
       <main>
-        <HomeBanner />
-        <HomeServices />
+        <div className="container">
+          <HomeBanner />
+          <HomeServices />
+          <HomeTestimonials />
+        </div>
       </main>
 
       <script

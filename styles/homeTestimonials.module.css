@@ -1,0 +1,21 @@
+.homeTestimonials {
+  background-color: var(--dh-primary);
+  padding: 80px 40px;
+  border-radius: 20px;
+}
+
+.testimonialTitle{
+  color: var(--dh-white);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+@media(max-width: 680px) {
+  .homeTestimonials {
+    padding: 40px 20px 20px;
+  }
+  
+  .testimonialTitle{
+    margin-bottom: 20px;
+  }
+}
