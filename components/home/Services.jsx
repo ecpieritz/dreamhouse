@@ -23,26 +23,24 @@ export default function HomeServices() {
 
   return (
     <section className={styles.homeServices}>
-      <div className="container">
-        <div className="row">
-          {services.map((service, index) => (
-            <CardOnlyText
-              key={index}
-              title={service.title}
-              text={service.text}
-              link={service.link}
-            />
-          ))}
-        </div>
-
-        <Image
-          className={styles.servicesImg}
-          src="/imgs/dh-home--img02.png"
-          alt="designs"
-          width={1300}
-          height={600}
-        />
+      <div className="row">
+        {services.map((service, index) => (
+          <CardOnlyText
+            key={index}
+            title={service.title}
+            text={service.text}
+            link={service.link}
+          />
+        ))}
       </div>
+
+      <Image
+        className={styles.servicesImg}
+        src="/imgs/dh-home--img02.png"
+        alt="designs"
+        width={1300}
+        height={600}
+      />
     </section>
   );
 }
