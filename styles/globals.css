@@ -109,6 +109,18 @@ section{
 
 /* END BUTTONS */
 
+/* START TITLES */
+.dhTitles{
+  text-align: center;
+}
+.dhTitles h2{
+  margin-bottom: 20px;
+}
+.dhTitles h3{
+  margin-bottom: 60px;
+}
+/* END TITLES */
+
 @media(max-width: 680px) {
   h1 {
     font-size: 50px;
