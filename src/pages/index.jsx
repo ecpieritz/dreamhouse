@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import HomeBanner from "../../components/home/Banner";
 import HomeServices from "../../components/home/Services";
 import HomeTestimonials from "../../components/home/Testimonial";
+import HomeProjects from "../../components/home/Projects";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
           <HomeBanner />
           <HomeServices />
           <HomeTestimonials />
+          <HomeProjects />
         </div>
       </main>
 
