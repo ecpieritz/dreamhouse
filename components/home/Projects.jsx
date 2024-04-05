@@ -9,18 +9,18 @@ export default function HomeProjects() {
       link: "/imgs/dh-home--projects-01.png",
     },
     {
-      projectName: "Modern Bedroom",
+      projectName: "Contemporary House",
       detail: "Decor / Artchitecture",
       link: "/imgs/dh-home--projects-02.png",
     },
     {
-      projectName: "Modern Bedroom",
+      projectName: "Clean Kitchen",
       detail: "Decor / Artchitecture",
       link: "/imgs/dh-home--projects-03.png",
     },
     {
-      projectName: "Modern Bedroom",
-      detail: "Decor / Artchitecture",
+      projectName: "Cozy Backyard",
+      detail: "Decor / Landscaping",
       link: "/imgs/dh-home--projects-04.png",
     }
   ];
