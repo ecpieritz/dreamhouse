@@ -4,6 +4,7 @@ import HomeBanner from "../../components/home/Banner";
 import HomeServices from "../../components/home/Services";
 import HomeTestimonials from "../../components/home/Testimonial";
 import HomeProjects from "../../components/home/Projects";
+import HomeCounters from "../../components/home/Counters";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
           <HomeServices />
           <HomeTestimonials />
           <HomeProjects />
+          <HomeCounters />
         </div>
       </main>
 
