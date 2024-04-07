@@ -5,6 +5,7 @@ import HomeServices from "../../components/home/Services";
 import HomeTestimonials from "../../components/home/Testimonial";
 import HomeProjects from "../../components/home/Projects";
 import HomeCounters from "../../components/home/Counters";
+import ContactBanner from "../../components/ContactBanner";
 
 export default function Home() {
   return (
@@ -32,6 +33,8 @@ export default function Home() {
           <HomeProjects />
           <HomeCounters />
         </div>
+
+        <ContactBanner />
       </main>
 
       <script
