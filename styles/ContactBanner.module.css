@@ -1,0 +1,36 @@
+.dhContactBanner{
+  width: 100%;
+  height: 430px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+  text-align: center;
+  color: var(--dh-white);
+}
+
+.dhContactBanner h5{
+  margin: 20px 0 40px;
+  font-weight: 400;
+}
+
+.dhContactBtn {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: flex;
+  gap: 15px;
+  font-size: 24px;
+  background-color: var(--dh-primary);
+  padding: 20px 40px;
+  border-radius: 16px;
+  -webkit-box-shadow: 0px 23px 28px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 23px 28px 3px rgba(0,0,0,0.75);
+  box-shadow: 0px 23px 28px 3px rgba(0,0,0,0.75);
+}
+
+.dhContactBtn:hover {
+  color: var(--dh-white);
+  text-decoration: none;
+  background-color: var(--dh-primary-dark);
+}
