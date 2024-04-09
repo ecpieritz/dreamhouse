@@ -6,6 +6,7 @@ import HomeTestimonials from "../../components/home/Testimonial";
 import HomeProjects from "../../components/home/Projects";
 import HomeCounters from "../../components/home/Counters";
 import ContactBanner from "../../components/ContactBanner";
+import Footer from "../../components/Footer";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       </Head>
 
       <Header />
+
       <main>
         <div className="container">
           <HomeBanner />
@@ -36,6 +38,8 @@ export default function Home() {
 
         <ContactBanner />
       </main>
+
+      <Footer />
 
       <script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
