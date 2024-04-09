@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import Banner from "../../components/Banner";
 
 export default function About() {
   return (
@@ -22,6 +23,7 @@ export default function About() {
       <Header />
 
       <main>
+        <Banner src="/imgs/dh-about--banner.png" alt="about banner" />
         <div className="container">
         </div>
       </main>
