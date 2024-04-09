@@ -95,6 +95,12 @@ export default function Footer() {
               </Link>
             </div>
           </div>
+          <div className="col-12">
+            <p className={styles.dhMadeBy}>
+            Made with 💛 by
+            <Link className={styles.dhMadeByLink} href="https://github.com/ecpieritz">Emilyn Pieritz</Link>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

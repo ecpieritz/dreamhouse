@@ -1,5 +1,5 @@
 .dhFooter{
-  margin: 40px 0;
+  margin: 40px 0 0;
 }
 
 .dhLogo img{
@@ -36,6 +36,20 @@
 .dhLinks:hover{
   color: var(--dh-primary);
 }
+
 .dhContact .dhLinks{
   margin-top: 20px;
+}
+
+.dhMadeBy{
+  text-align: center;
+  margin: 60px 0 20px;
+}
+
+.dhMadeByLink{
+  margin-left: 5px;
+}
+
+.dhMadeByLink:hover{
+  color: var(--dh-primary);
 }
