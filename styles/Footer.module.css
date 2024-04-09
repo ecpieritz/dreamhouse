@@ -1,0 +1,41 @@
+.dhFooter{
+  margin: 40px 0;
+}
+
+.dhLogo img{
+  margin-bottom: 20px;
+}
+
+.dhSocials{
+  display: flex;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.dhSocials img{
+  width: auto;
+  height: 30px;
+}
+
+.dhTitle{
+  margin-bottom: 20px;
+}
+
+.dhPages,
+.dhServices,
+.dhContact{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dhLinks{
+  font-weight: 400;
+}
+
+.dhLinks:hover{
+  color: var(--dh-primary);
+}
+.dhContact .dhLinks{
+  margin-top: 20px;
+}
