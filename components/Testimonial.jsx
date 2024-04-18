@@ -12,7 +12,7 @@ export default function HomeTestimonials() {
     {
       name: "Sarah",
       location: "Lisbon, Portugal",
-      text: "I couldn't be happier with the outcome of our project. DreamHouse's expertise in interior design transformed our space into a true reflection of our style and personality.",
+      text: "I couldn"t be happier with the outcome of our project. DreamHouse"s expertise in interior design transformed our space into a true reflection of our style and personality.",
       link: "/imgs/dh-home--testimonial-02.png",
     },
     {
