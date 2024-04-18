@@ -21,7 +21,7 @@ export default function CardImages(props) {
             <p className={styles.cardDetail}>{props.detail}</p>
           </div>
           <div className="col-2 p-0">
-            <Link href='/projects' className={styles.primaryBtn}><span>&gt;</span></Link>
+            <Link href='#contact' className={styles.primaryBtn}><span>&gt;</span></Link>
           </div>
         </div>
       </div>

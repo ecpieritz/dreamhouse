@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Header from "../../components/Header";
-import HomeBanner from "../../components/home/Banner";
-import HomeServices from "../../components/home/Services";
-import HomeTestimonials from "../../components/home/Testimonial";
-import HomeProjects from "../../components/home/Projects";
-import HomeCounters from "../../components/home/Counters";
+import HomeBanner from "../../components/Banner";
+import HomeServices from "../../components/Services";
+import HomeTestimonials from "../../components/Testimonial";
+import HomeProjects from "../../components/Projects";
+import HomeCounters from "../../components/Counters";
 import ContactBanner from "../../components/ContactBanner";
 import Footer from "../../components/Footer";
 

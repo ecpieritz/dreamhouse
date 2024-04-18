@@ -1,5 +1,5 @@
-import Counter from "../Counter";
-import styles from "../../styles/Counters.module.css";
+import Counter from "./Counter";
+import styles from "../styles/Counters.module.css";
 
 export default function HomeCounters() {
   return (

@@ -26,22 +26,16 @@ export default function Header() {
       </div>
 
       <div className={styles.links}>
-        <CustomLink href="/" currentPath={currentPath}>
-          Home
-        </CustomLink>
         <CustomLink href="/about" currentPath={currentPath}>
           About
         </CustomLink>
-        <CustomLink href="/services" currentPath={currentPath}>
+        <CustomLink href="/#services" currentPath={currentPath}>
           Services
         </CustomLink>
-        <CustomLink href="/prices" currentPath={currentPath}>
-          Prices
-        </CustomLink>
-        <CustomLink href="/projects" currentPath={currentPath}>
+        <CustomLink href="/#projects" currentPath={currentPath}>
           Projects
         </CustomLink>
-        <CustomLink href="/contact" currentPath={currentPath}>
+        <CustomLink href="/#contact" currentPath={currentPath}>
           Contact
         </CustomLink>
       </div>

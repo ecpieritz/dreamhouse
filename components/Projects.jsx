@@ -1,5 +1,5 @@
-import Titles from "../Titles";
-import CardImages from "../CardImages";
+import Titles from "./Titles";
+import CardImages from "./CardImages";
 
 export default function HomeProjects() {
   const projects = [
@@ -26,7 +26,7 @@ export default function HomeProjects() {
   ];
 
   return (
-    <section>
+    <section id="projects">
       <Titles
         title="Follow Our Projects"
         subtitle="Stay updated with our latest projects and design inspirations. Follow along as we turn dreams into reality, one project at a time."

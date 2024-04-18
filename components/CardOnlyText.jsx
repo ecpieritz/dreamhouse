@@ -11,7 +11,7 @@ export default function CardOnlyText(props) {
         <p>{props.text}</p>
 
   <Link className="text-btn" href={props.link}>
-    Read More
+    More About
     <Image
             src='/imgs/icons/dh-icons--right-arrow.png'
             alt='arrow'

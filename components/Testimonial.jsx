@@ -1,5 +1,5 @@
-import styles from "../../styles/homeTestimonials.module.css";
-import CardTestimonial from "../CardTestimonial";
+import styles from "../styles/homeTestimonials.module.css";
+import CardTestimonial from "./CardTestimonial";
 
 export default function HomeTestimonials() {
   const testimonials = [
