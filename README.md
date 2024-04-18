@@ -8,7 +8,7 @@
 </p>
 
 ## 📖 About
-<p>Multi-page website for an interior design brand. Made with next.js.</p>
+<p>SPA for an interior design brand. Made with next.js.</p>
 
 ---
 
