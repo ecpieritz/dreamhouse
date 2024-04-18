@@ -2,9 +2,9 @@
 
 ## 🖥 Preview
 <p align = "center">
-  <img src = "x" width = "700" height = "auto">
-  <img src = "x" width = "350" height = "auto">
-  <img src = "x" width = "350" height = "auto">
+  <img src = "https://raw.githubusercontent.com/ecpieritz/dreamhouse/c724ac3c14c47c0c06f289427067faf98f409ba9/public/imgs/dh-prints-01.png" width = "700" height = "auto">
+  <img src = "https://raw.githubusercontent.com/ecpieritz/dreamhouse/c724ac3c14c47c0c06f289427067faf98f409ba9/public/imgs/dh-prints-02.png" width = "350" height = "auto">
+  <img src = "https://raw.githubusercontent.com/ecpieritz/dreamhouse/c724ac3c14c47c0c06f289427067faf98f409ba9/public/imgs/dh-prints-03.png" width = "350" height = "auto">
 </p>
 
 ## 📖 About
@@ -16,7 +16,7 @@
 - Next.js
 - React
 - CSS
-- Tailwind
+- Bootstrap
 - Javascript
 
 ---
