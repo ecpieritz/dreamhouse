@@ -13,8 +13,8 @@ export default function CardOnlyText(props) {
   <Link className="text-btn" href={props.link}>
     More About
     <Image
-            src="/imgs/icons/dh-icons--right-arrow.png"
-            alt="arrow"
+            src='/imgs/icons/dh-icons--right-arrow.png'
+            alt='arrow'
             width={20}
             height={18}
           />
