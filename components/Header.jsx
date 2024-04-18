@@ -21,7 +21,7 @@ export default function Header() {
     <header className={styles.dhHeader}>
       <div className={styles.logo}>
         <Link href="/">
-          <Image src="/imgs/dh-logo.png" width={225} height={50} alt="" />
+          <Image src="/imgs/dh-logo.png" width={225} height={50} alt="DreamHouse" />
         </Link>
       </div>
 

@@ -24,7 +24,7 @@ export default function HomeBanner() {
 
   return (
     <div className={styles.homeBanner} style={{backgroundImage: `url(${bannerImage})`}}>
-      <h1>Let&#39;s make your <br className="mob-none"/>home beautiful together</h1>
+      <h1>Let&apos;s make your <br className="mob-none"/>home beautiful together</h1>
 
       <p>Discover how our interior design experts can transform your space into something truly extraordinary.</p>
 

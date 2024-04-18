@@ -8,7 +8,7 @@ export default function ContactBanner() {
       <div className="container">
       <h2>Get in Touch</h2>
 
-      <h5>Reach out today and let&#39;s start creating your dream space together.</h5>
+      <h5>Reach out today and let&apos;s start creating your dream space together.</h5>
 
       <Link className={styles.dhContactBtn} href='mailto:contact@dreamhouse.design'>
         <span>Contact Whit Us</span>

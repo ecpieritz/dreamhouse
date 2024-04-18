@@ -35,12 +35,10 @@ export default function Home() {
           <HomeProjects />
           <HomeCounters />
         </div>
-
         <ContactBanner />
       </main>
 
       <Footer />
-
     </>
   );
 }
